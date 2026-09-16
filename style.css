@@ -1,0 +1,99 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* Application card */
+.application-card {
+    background: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* School name */
+h1 {
+    text-align: center;
+    color: #0f167b;
+    margin-bottom: 8px;
+}
+
+/* Subtitle */
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Section headings */
+h2 {
+    color: #3a13b9;
+    font-size: 20px;
+    margin: 20px 0 12px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Text area */
+textarea {
+    height: 90px;
+    resize: none;
+}
+
+/* When clicking an input */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #164e63;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background: #0c1a20;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background: #0e7490;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color:#21c84878;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+
+}
+
+header,footer{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+main{
+    padding: 20px;
+    width: 700px;
+    margin:10px auto;
+}
+img{
+    width: 80%;
+    border-radius: 5px;
+    
+}
+footer{
+
+    padding: 10px;
+}
+.card{
+    background-color:white;
+    padding: 10px;
+    margin-bottom:10px;
+    border: 10px solid #e0e0e02a;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.20);
+}
+.card:hover {
+    box-shadow: 0 6px 16px rgba(231, 150, 150, 0.50);
+    border-color: #222222;
+}
+
