@@ -141,7 +141,6 @@ button:hover {
     background: linear-gradient(135deg, #075f7c, #084da8);
     transform: translateY(-1px);
 }
-
 @media (max-width: 700px) {
 
     .top-section {
