@@ -15,8 +15,6 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR */
-
 header {
     width: 100%;
     padding: 25px 8%;
@@ -245,10 +243,6 @@ pre {
     color: #8b5cf6;
     text-decoration: none;
 }
-
-
-/* ABOUT */
-
 .about {
     padding: 120px 8%;
     display: grid;
@@ -257,13 +251,11 @@ pre {
     align-items: center;
     background: #0b0b0f;
 }
-
 .about h2 {
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 25px;
 }
-
 .about p {
     color: #999;
 }
